@@ -13,11 +13,37 @@ public class AlgoChallenge {
     avengersAssemble(true, true) --> true
      */
 
-    public static Boolean avengersAssemble(boolean dcHero, boolean avengerHero) {
+    public static String avengersAssemble(boolean dcHero, boolean avengerHero) {
 
-        return null;
+        String response = "";
 
+        if (dcHero == true && avengerHero == true) {
+
+            response += "true";
+
+        }
+
+        if (dcHero == false && avengerHero == true) {
+
+            response += "true";
+
+        }
+
+        if (dcHero == false && avengerHero == false) {
+
+            response += "true";
+
+        }
+
+        if (dcHero == true && avengerHero == true) {
+
+            response += "false";
+
+        }
+
+        return response;
     }
+
 
     /* Problem 2
     You and your friends are out walking on the boardwalk at Atlantic City
@@ -34,5 +60,6 @@ public class AlgoChallenge {
 
         return null;
     }
+
 
 }
