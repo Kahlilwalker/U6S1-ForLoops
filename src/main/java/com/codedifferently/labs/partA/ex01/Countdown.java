@@ -10,7 +10,11 @@ public class Countdown {
     }
 
     public static String countUpLoop() {
+<<<<<<< HEAD
+        String response = "";
+=======
 String response = "";
+>>>>>>> 0c585fb1541dda8aae1bdf1307d190d9e723879b
         for(int i = 10; i >= 0; i--) {
             response += i + " ";
         }
